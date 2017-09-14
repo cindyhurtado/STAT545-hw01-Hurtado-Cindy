@@ -7,4 +7,29 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Level 1 header 
 
+## Header
+
+
+```{r}
+x<- rnorm(100)
+y<- rnorm(100)
+plot(x,y)
+```
+
+```{r}
+summary(x)
+```
+
+```{r this is the fourth chunk, echo=FALSE} 
+# this will nor be shown in the output
+x <- rnorm(100)
+```
+
+
+```{r, fig.height=3, fig.width=3}
+x<- rnorm(100)
+y<- rnorm(100)
+plot(x,y)
+```
