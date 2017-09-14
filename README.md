@@ -16,6 +16,6 @@ Here is how peccaries look like
 
 ![alt text](http://cdn1.arkive.org/media/68/68F248A2-608E-4B2B-9F9F-C693F5E95D47/Presentation.Large/Collared-peccary-eating-cactus.jpg)
 
-
+ *All of the above was made in RStudio, I had some trouble adding the link for the picture then realized that I needed to open the image separately and then copy that link*
 
 
