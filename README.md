@@ -1,1 +1,1 @@
-# STAT545-hw01-Hurtado-Cindy
+# This is the repository of Cindy Hurtado :)
