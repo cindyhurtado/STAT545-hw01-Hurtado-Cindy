@@ -3,9 +3,6 @@ title: "hw01_gapminder"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Level 1 header 
 
@@ -23,8 +20,9 @@ summary(x)
 ```
 
 ```{r this is the fourth chunk, echo=FALSE} 
-# this will nor be shown in the output
 x <- rnorm(100)
+
+# this is only a comment and should not will not be shown in the output
 ```
 
 
@@ -33,3 +31,12 @@ x<- rnorm(100)
 y<- rnorm(100)
 plot(x,y)
 ```
+
+```{r}
+library(gapminder)
+head(gapminder)
+str(gapminder)
+
+```
+
+
